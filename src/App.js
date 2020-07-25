@@ -2,7 +2,8 @@ import React from 'react'
 import {Link, Route, Switch, BrowserRouter} from 'react-router-dom';
 import About from './components/About';
 import Home from './components/Home';
-import Like from './components/Like';
+import Like from './components/createelement/Like';
+import Counter from './components/createelement/Counter';
 
 
 export default function App() {
@@ -10,6 +11,8 @@ export default function App() {
         <div>
             <p>App 처음 입니다.</p>
             <Like />
+            <hr />
+            <Counter />
             <div>
                 <Link to="/home"> Home로 이동 </Link>
             </div>
