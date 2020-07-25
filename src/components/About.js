@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BG from '../assets/background.jpg';
+import Love1 from '../assets/love1.png';
+import Love2 from '../assets/love2.jpg';
 import Button from './createelement/Button';
 
 class About extends React.Component {
@@ -36,7 +38,11 @@ class About extends React.Component {
                 <Button label='image label'>image show</Button>
                 {
                     existImg &&
-                    <img src={BG}></img>
+                    <div>
+                        <img src={BG}></img>
+                        <img src={Love1}></img>
+                        <img src={Love2}></img>
+                    </div>
                 }
             </div>
         )

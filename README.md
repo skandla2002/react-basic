@@ -29,3 +29,7 @@
 =======
 # react-basic
 react basic all
+
+
+# create-react-app
+ : HTTPS=ture 로 셋팅할 수 있음(windows: set HTTPS=true && npm start 로 자체 인증서 접속 됨)
