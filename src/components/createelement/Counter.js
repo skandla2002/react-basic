@@ -15,7 +15,7 @@ export default class Counter extends Component {
             React.createElement(Like),
             React.createElement(
                 'div',
-                { style: {marginTop: 20 }},
+                { style: { marginTop: 20 }},
                 React.createElement('span', null, '현재 카운트: '),
                 React.createElement('span', null, this.state.count),
                 React.createElement(

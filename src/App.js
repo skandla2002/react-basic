@@ -10,7 +10,10 @@ export default function App() {
     return (
         <div>
             <p>App 처음 입니다.</p>
-            <Like />
+            <div>
+                <p>프로젝트 처음이 좋으면 Like 해주세요</p>
+                <Like />
+            </div>
             <hr />
             <Counter />
             <div>
