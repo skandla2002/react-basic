@@ -16,3 +16,10 @@
 
 - Index, App 연결
 - Router / Link 연결
+
+# git-hub 연결
+
+1. 최초 github 생성 후 git clone 으로 프로젝트 시작시에는 기본 설정 완료되어 있음
+2. 로컬에서 먼저 소스 git init 처리한 경우 최초 git push -f 로 강제 push 해야함
+  - git remote add origin [git 소스 위치: https://github.com/skandla2002/react-basic.git]
+  - git push -f origin master 
