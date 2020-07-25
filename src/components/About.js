@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import BG from '../assets/background.jpg';
 
 const About = () => {
     return (
@@ -8,6 +9,7 @@ const About = () => {
             <p>
                 About 입니다.
             </p>
+            <img src={BG}></img>
         </div>
     )
 }

@@ -15,6 +15,13 @@ module.exports =  (env) => {
                 {
                     test: /\.js/,
                     use: 'babel-loader'
+                },
+                {
+                    test: /\.(jpg|png|gif)$/,
+                    use: 'file-loader'
+                    // use: {
+                    //     loader: ['file-loader', 'url-loader']
+                    // }
                 }
             ]
         },

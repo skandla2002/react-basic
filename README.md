@@ -10,6 +10,8 @@
 
 - yarn add -D webpack-dev-server
 
+- yarn add -D file-loader url-loader
+
 # webpack 설정
 
 # 소스 구현
